@@ -1,0 +1,8 @@
+Download and install a web server like Apache or XAMPP on your local machine.
+Create a database in MySQL and import the database schema provided in the project.
+Download the project files and extract them in the web server's root directory (htdocs for Apache and www for XAMPP).
+Configure the database connection in the config.php file with your database credentials.
+Open a web browser and navigate to the URL where the project is hosted (usually http://localhost/project_name).
+Use the "Add User" form to add new users to the system.
+When a user is added, a verification email will be sent to their email address. The user will need to click on the verification link to verify their account.
+The list of all users can be viewed on the "View Users" page, which displays the user's name, email, mobile number, and verification status (verified or unverified).
